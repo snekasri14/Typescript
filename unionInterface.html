@@ -1,0 +1,16 @@
+// Interface with a property of union type
+
+interface Shape {
+  name: string;
+  sides: number | string;
+}
+let triangle: Shape = {
+  name: "Triangle",
+  sides: 3,
+};
+let square: Shape = {
+  name: "Square",
+  sides: "4",
+};
+console.log(triangle); 
+console.log(square); 
